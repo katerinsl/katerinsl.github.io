@@ -1,10 +1,10 @@
 
 html {
+    
     scroll-behavior: smooth;
 }
 
-html,
-* {
+html, * {
     margin-top: 0;
     box-sizing: border-box;
 }
@@ -22,7 +22,6 @@ body {
 
 .container {
     min-height: 100vh;
-    border: 1px solid #000;
 }
 
 /* 540px */
@@ -95,45 +94,4 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-}
-
-.navbar {
-    background-color: chartreuse;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar .logo {
-    display: block;
-    text-decoration: none;
-}
-
-.navbar .navmenu,
-.navbar .navmenu li {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12pt;
-    font-weight: 700;
-   
-}
-
-.navbar .navmenu {
-    display: flex;
-    flex-direction: row;
-}
-
-.navbar .navmenu a {
-    display: block;
-    padding: 1em 2em;
-    text-decoration: none;
-}
-
-.navbar .navmenu a.active,
-.navbar .navmenu a:hover {
-    color: red;
-    background-color: rgba(255, 255, 255, 0.8);
-
 }
