@@ -153,11 +153,11 @@ header {
 }
 
 .navbar-mobile nav { 
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .navbar-mobile nav a {
     display: block;
-    border-bottom: 1px solid #e6e6e6;
+  
     font-size: 18px;
     line-height: 30px;
     padding: 1em 2em;
