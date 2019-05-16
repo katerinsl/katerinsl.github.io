@@ -11,6 +11,15 @@
 }
 
 
+.portfolio2 a:hover img {
+    transform: scale(1.15, 1.15);
+
+
+}
+
+.portfolio2 a img {
+    transition: all 0.60s ease-in-out;}
+
 .img-fit img {
     width: 100%;
     height: auto;

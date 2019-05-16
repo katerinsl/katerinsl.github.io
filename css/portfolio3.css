@@ -20,6 +20,16 @@
 }
 
 
+.portfolio3 a:hover img {
+    transform: scale(1.15, 1.15);
+
+
+}
+
+.portfolio3 a img {
+    transition: all 0.60s ease-in-out;}
+
+
 
 
 .imgs1 {

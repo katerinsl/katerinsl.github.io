@@ -15,7 +15,14 @@
     height: auto;
 
 }
+.portfolio4 a:hover img {
+    transform: scale(1.15, 1.15);
 
+
+}
+
+.portfolio4 a img {
+    transition: all 0.60s ease-in-out;}
 
 
 

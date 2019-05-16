@@ -88,23 +88,5 @@ body {
 
 .contacts.section {}
 
-.contacts .container a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 6em;
-    height: 6em;
-    text-decoration: none;
-}
 
-.contacts .container a i {
-    font-size: 5em;
-}
-
-
-.contacts .container a header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 

@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 .portfolio .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -10,13 +12,22 @@
 
 }
 
+
+
+@media (min-width: 576px) {
+ 
+}
+
+
 .portfolio a:hover img {
     transform: scale(1.15, 1.15);
+
 
 }
 
 .portfolio a img {
-    transition: all 0.25s ease-in-out;
+    transition: all 0.60s ease-in-out;
+    
 
 
 }
@@ -208,3 +219,7 @@
 
 
 }
+
+
+
+
